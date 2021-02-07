@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#welcome-section {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px 750px;
+    background-color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    padding-right: 370px;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-section p {
+    color: rgb(65, 111, 131);
+    font-size: 40px;
+    font-style: oblique;
+    font-family: cursive font-weight: 100;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+    color: linear-gradient(45deg, red, green, blue);
+}
+
+#navbar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    float: right;
+
+    top: 0px;
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(19, 18, 18, 0.918);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link {
+    float: right;
+    text-decoration: none;
+    padding: 1.4rem;
+    color: rgb(180, 178, 174);
+}
+
+.link:hover {
+    transform: scale(1.2);
+}
+
+#projects {
+    background-color: #130E2A;
+}
+.about-row{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.about-left-col{
+flex-basis: 25%;
+}
+.about-left-col img{
+width: 70%;
+padding: 50px;
+}
+.about-right-col{
+flex-basis: 50%;
+font-size:22px;
+}
+#p-title{
+font-size:25px;
+font-style: oblique;
+font-weight: bold;
+padding: 5px;
+color: #036b94;
+}
+.work h2 {
+    font-size: 30px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    text-shadow: -1px -1px 0 rgb(109, 102, 102), 1px -1px 0 rgb(80, 74, 74), -1px 1px 0 rgb(61, 59, 59), 1px 1px 0 #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-shadow: 2px 2px #f3f2f2; */
+    margin-bottom: 40px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+    justify-content: center;
+
+}
+.section-info h1{
+    font-size: 30px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    text-shadow: -1px -1px 0 rgb(109, 102, 102), 1px -1px 0 rgb(80, 74, 74), -1px 1px 0 rgb(61, 59, 59), 1px 1px 0 #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-shadow: 2px 2px #f3f2f2; */
+    margin-bottom: 40px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+    justify-content: center;
+}
+
+#Contact h3 {
+    font-size: 30px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    text-shadow: -1px -1px 0 rgb(109, 102, 102), 1px -1px 0 rgb(80, 74, 74), -1px 1px 0 rgb(61, 59, 59), 1px 1px 0 #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-shadow: 2px 2px #f3f2f2; */
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#projectbody {
+    margin: 15px;
+    display: flex;
+}
+
+#projectbody .column {
+    border: 3px solid rgb(113, 136, 139);
+    padding: 34px;
+    margin: 2px 40px;
+    border-radius: 15px;
+    background: #e6ebff;
+    margin-bottom: 20px;
+}
+
+#projectbody .column p {
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+
+#projectbody h2 {
+    color: rgb(27, 25, 25);
+    padding-bottom: 1em;
+}
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px;
+}
+
+footer p:nth-child(2) {
+    font-size: 16px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
+}
+
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
+.social-icons {
+    display: flex;
+
+}
+
+.social-icons i,
+.social i {
+    color: #000000;
+}
+
+.social-icons a:hover {
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+
+.social-icons a:hover i,
+.social a:hover i {
+    color: #FFFFFF;
+    transition: all ease 0.5s;
+}
+
+.copyright {
+    color: #000000;
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+.social-icons img {
+    border-radius: 40px;
+}
